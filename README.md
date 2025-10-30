@@ -5,7 +5,7 @@
 ## Introduction
 
 The paper introduces a progressive fine-tuning framework based on BLIP2–Flan–T5–XL. The framework consists of three stages that gradually enhance visual-language alignment while maintaining computational efficiency: (1) **Low-Rank Adaptation (LoRA)** for parameter-efficient domain adaptation, (2) **multimodal data augmentation** to improve robustness against visual and linguistic noise, and (3) **Self-Critical Sequence Training (SCST)** to directly optimize caption quality using CIDEr as the reward metric.
-		 Below is the academic **poster** associated with our paper.<img src="C:\Users\18388\Desktop\paper Journey\ICAIRC 2025\poster (2).jpg" alt="poster (2)" style="zoom: 25%;" /> 
+		 Below is the academic **poster** associated with our paper.<img src="Assets/poster.jpg" alt="poster" style="zoom: 25%;">
 
 ## Installation
 
@@ -53,6 +53,7 @@ Configure training with configs/accel_no_ds.yaml. For inference and Evaluation, 
 ## Demo
 
  We also developed an interactive Gradio-based Image Captioning Demo, which you can use the demo_gradio.py in the demo directory.
+
 
 
 
