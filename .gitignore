@@ -1,16 +1,17 @@
-# ===== Data folder =====
+# ===== Data =====
 /data/**
 !/data/
-!/data/processed_train.json
-!/data/processed_val.json
+!/data/vizwiz/
+!/data/vizwiz/processed_train.json
+!/data/vizwiz/processed_val.json
 
-# ===== Outputs folder (ignore everything) =====
+# ===== Outputs (ignore all) =====
 /outputs/**
 
 # ===== Do not upload coco-caption =====
 /coco-caption/**
 
-# ===== Ignore Python cache and env =====
+# ===== Python & system =====
 __pycache__/
 *.pyc
 *.pyo
