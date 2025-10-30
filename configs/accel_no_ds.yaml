@@ -1,0 +1,9 @@
+compute_environment: LOCAL_MACHINE         # 在本地机器上运行
+distributed_type: MULTI_GPU                # 使用多 GPU
+num_processes: 2                            # GPU 数量 = 2
+mixed_precision: bf16                       # 混合精度，支持 4090
+machine_rank: 0
+num_machines: 1
+use_cpu: false
+#ddp_find_unused_parameters: true
+#find_unused_parameters: true

@@ -1,0 +1,25 @@
+# ===== Data folder =====
+/data/**
+!/data/
+!/data/processed_train.json
+!/data/processed_val.json
+
+# ===== Outputs folder (ignore everything) =====
+/outputs/**
+
+# ===== Do not upload coco-caption =====
+/coco-caption/**
+
+# ===== Ignore Python cache and env =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+.ipynb_checkpoints/
+.env
+.venv/
+venv/
+*.log
+*.tmp
+.DS_Store
