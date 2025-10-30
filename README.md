@@ -31,10 +31,7 @@ pip install -r requirements.txt
 
  you are supposed to download the pre-trained  model BLIP2–Flan–T5–XL and coco-caption, and place them into the corresponding directories shown in the image
 
-<div align="">
-    <img src="C:\Users\18388\AppData\Roaming\Typora\typora-user-images\image-20251031050123125.png" width="260" style="margin-right:10px;">
-    <img src="C:\Users\18388\AppData\Roaming\Typora\typora-user-images\image-20251031052035686.png" width="260">
-</div>
+<img src="Assets/index.png" alt="poster" style="zoom: 25%;">
 
 ```
 #!/bin/bash
@@ -60,3 +57,4 @@ Configure training with configs/accel_no_ds.yaml. For inference and Evaluation, 
 
 
 ​	         
+
