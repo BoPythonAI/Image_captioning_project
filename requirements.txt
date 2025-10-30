@@ -1,0 +1,14 @@
+accelerate==1.10.1
+evaluate==0.4.6
+gradio==5.49.1
+numpy==2.3.4
+peft==0.11.1
+Pillow==12.0.0
+pycocoevalcap==1.2
+torch==2.7.1+cu118
+torchvision==0.22.1+cu118
+tqdm==4.67.1
+transformers==4.44.2
+pycocotools==2.0.10
+scikit-image==0.25.2
+matplotlib==3.9.0
