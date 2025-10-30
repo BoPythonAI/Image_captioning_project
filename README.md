@@ -5,7 +5,7 @@
 ## Introduction
 
 The paper introduces a progressive fine-tuning framework based on BLIP2–Flan–T5–XL. The framework consists of three stages that gradually enhance visual-language alignment while maintaining computational efficiency: (1) **Low-Rank Adaptation (LoRA)** for parameter-efficient domain adaptation, (2) **multimodal data augmentation** to improve robustness against visual and linguistic noise, and (3) **Self-Critical Sequence Training (SCST)** to directly optimize caption quality using CIDEr as the reward metric.
-		 Below is the academic **poster** associated with our paper.<img src="Assets/poster.jpg" alt="poster" style="zoom: 25%;">
+		 Below is the academic **poster** associated with our paper.<img src="Assets/poster.jpg" alt="poster" style="zoom: 10%;">
 
 ## Installation
 
@@ -45,7 +45,7 @@ python -c "from transformers import Blip2ForConditionalGeneration; Blip2ForCondi
 ```
 
 For training, We have included the training samples for progressive fine-tuning in the corresponding **src** directory.
-Configure training with configs/accel_no_ds.yaml. For inference and Evaluation, we can use  We can use the eval_utils.py and inference_blip2.py files in the inference directory.
+Configure training with configs/accel_no_ds.yaml. For inference and Evaluation, we can use the eval_utils.py and inference_blip2.py files in the inference directory.
 
 ## Demo
 
@@ -57,4 +57,5 @@ Configure training with configs/accel_no_ds.yaml. For inference and Evaluation, 
 
 
 ​	         
+
 
